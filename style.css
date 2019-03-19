@@ -1,0 +1,57 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background: url("./images/img1.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: #ffe4c4;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: "Lato";
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 5em;
+}
+
+h3 {
+    font-weight: 500;
+}
+
+.content {
+    padding-top: 20%;
+    text-align: center;
+    text-shadow: 0px 4px 3px rgba(255, 255, 255, 0.4), 0px 8px 13px rgba(255, 255, 255, 0.1), 0px 18px 23px rgba(255, 255, 255, 0.1);
+}
+
+hr {
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.btn {
+    border: none;
+    outline: none;
+}
+
+.btn a {
+    color: inherit;
+}
+
+.btn a:hover {
+    text-decoration: none;
+}
+
+.navbar-brand {
+    font-size: 20px;
+}
