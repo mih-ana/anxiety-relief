@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="modal.css">
+    <title>Anxiety Relief - Scribble</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="../index.html">Anxiety Relief</a>
+            </div>
+            <div id="navbar" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="nav-item"><a href="../CrossOutList/crossOutList.html">Cross Out List</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../SoundOfMusic/soundOfMusic.html">Sound of Music</a>
+                    </li>
+                    <li class="nav-item active"><a class="nav-link" href="#">Scribble</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../ZenResort/zenResort.html">Zen Resort</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="container">
+
+        <span class="content">
+            <span class="buttons"><button class="btn btn-info" id="myBtnInfo">
+                    <span id="one" class="button"><abbr title="Click me to find out what this exercise is about!">
+                        <i class="fa fa-info"></i></abbr></span>
+        </span>
+        </button>
+        </span>
+
+
+        <div id="modal-container">
+            <div class="modal-background">
+                <div class="modal">
+                    <h2>Hello From The Info Button!</h2>
+                    <p>The aim of this exercise is for you to write down thoughts which you want to get rid of. It is as easy as it is effective! Writing down reocurring negative thoughts can have a surprisingly positive effect on your overall health and
+                        may aid you in alleviating your anxiety levels. </p>
+                    <p>
+                        So, all you need to do is to jot down the stuff that bother you, and then throw them in the trash (we have provided you with a trash bin, as well!).
+                    </p>
+                    <p>Give it a try, you will not regret it, I promise!</p>
+                    <svg class="modal-svg" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" preserveAspectRatio="none">
+                        <rect x="0" y="0" fill="none" width="226" height="162" rx="3" ry="3"></rect>
+                    </svg>
+                </div>
+            </div>
+        </div>
+
+        <h1>Jot it Down <i class="fa fa-plus"></i></h1>
+        <input type="text" placeholder="Scribble!">
+
+        <ul id="main-ul">
+        </ul>
+    </div>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.js"></script>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="./JS/scribble.js"></script>
+    <script type="text/javascript" src="./JS/modal.js"></script>
+    <!-- Modal Copyright (c) 2019 by Jesse Couch (https://codepen.io/designcouch/pen/obvKxm) -->
+</body>
+
+</html>
