@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Anxiety Relief - Cross Out List</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                <a class="navbar-brand" href="../index.html">Anxiety Relief</a>
+            </div>
+            <div id="navbar" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="nav-item active"><a href="#">Cross Out List</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../SoundOfMusic/soundOfMusic.html">Sound of Music</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../Scribble/scribble.html">Scribble</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../ZenResort/zenResort.html">Zen Resort</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="container">
+
+        <h1>Cross it out</h1>
+        <ul id="main-ul">
+            <li><span id="modal1" class="modal-span"><i class="fa fa-info-circle"></i></span> Filtering</li>
+            <li><span id="modal2" class="modal-span"><i class="fa fa-info-circle"></i></span> Overgeneralization</li>
+            <li><span id="modal3" class="modal-span"><i class="fa fa-info-circle"></i></span> Polarized Thinking</li>
+            <li><span id="modal4" class="modal-span"><i class="fa fa-info-circle"></i></span> Catastrophizing</li>
+            <li><span id="modal5" class="modal-span"><i class="fa fa-info-circle"></i></span> Should's</li>
+            <li><span id="modal6" class="modal-span"><i class="fa fa-info-circle"></i></span> Mind Reading</li>
+            <li><span id="modal7" class="modal-span"><i class="fa fa-info-circle"></i></span> Emotional Reasoning</li>
+            <li><span id="modal8" class="modal-span"><i class="fa fa-info-circle"></i></span> Personalizing</li>
+        </ul>
+
+        <!-- Trigger/Open The Modal -->
+        <button id="myBtnInfo" class="btn btn-info">Click Me for More Info Regarding This Exercise!</button>
+        <!-- The Modal -->
+        <div id="myModalInfo" class="modal">
+            <!-- Modal content -->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <span class="close">&times;</span>
+                    <h2>Hey there!</h2>
+                </div>
+                <div class="modal-body">
+                    <p>This list contains the most common thinking traps which fuel your anxiety. The aim is to make you aware of these thinking traps and offer solutions on how to overcome them. Additionally, when you feel confident enough that you have
+                        overcome a thinking trap, you can cross it out in the list, thus getting rid of it!</p>
+                    <p>All of the information in this exercise is based on the Hardcore Self Help Series by clinical psychologist Robert Duff.</p>
+                    <p>
+                        <a href="https://www.duffthepsych.com/hardcoreselfhelp/" target="_blank" title="Robert Duff">Robert Duff Official
+                        </a>
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <h3 id="mainModalH3">Good luck, have fun!</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal1 -->
+    <div id="myModal1" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="close">&times;</span>
+                <h2>Filtering</h2>
+            </div>
+            <div class="modal-body">
+                <p>In everyday life we tend to filter out the good details and only see the negative aspects of a situation. This one hardly requires explanation. Your attention is biased toward things that support the way you already feel about yourself.</p>
+                <p>
+                    Remember that your assumptions about a situation are only guesses or hypotheses. You need evidence to back those up. Examine the evidence about a situation. You don’t need to discount or deny the aspects that are negative, but you need to be a better
+                    scientist and examine ALL of the evidence before coming to a conclusion. I find that a journal works really well here. If you have a tendency to filter out the positive aspects of your behavior, use your journal to notice 3 positive
+                    aspects every day. By consistently challenging yourself to see the stuff that you automatically filter out, you can train your attention to be less negatively biased. This will look a little different for everyone depending on what
+                    you typically filter out. For me, I challenge myself to identify 3 things that I am proud of myself for each day.
+                </p>
+            </div>
+            <div class="modal-footer">
+                <h3>© 2017 DUFF THE PSYCH | DUFFTHEPSYCH.COM | @DUFFTHEPSYCH</h3>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal2 -->
+    <div id="myModal2" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="close">&times;</span>
+                <h2>Overgeneralization</h2>
+            </div>
+            <div class="modal-body">
+                <p>This is when you take one piece of evidence or one example and apply it as a rule to everything. This is a normal part of the way that human beings learn and create memories. The tendency to make rules and apply them broadly is actually
+                    something that can help us survive, but it also gets us into a lot of trouble when we unnecessarily generalize to situations in everyday life.</p>
+                <p>For overgeneralization, it can be really helpful to find counter-examples. Are there any instances that prove that your rule is not always true? For instance, you might have the overgeneralization that all lawyers are money hungry vampires.
+                    Sure, there may be some evidence in the media that supports this hypothesis of yours. However, you have probably also heard of lawyers that work for non-profit organizations or do extensive pro bono (free) work because they seem to
+                    honestly care about their fellow humans. Providing counter examples may not stop you from feeling like your rule applies in some situations, but it will encourage you to focus on the unique aspects of each situation rather than lumping
+                    them all together.</p>
+            </div>
+            <div class="modal-footer">
+                <h3>© 2017 DUFF THE PSYCH | DUFFTHEPSYCH.COM | @DUFFTHEPSYCH</h3>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal3 -->
+    <div id="myModal3" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="close">&times;</span>
+                <h2>Polarized Thinking</h2>
+            </div>
+            <div class="modal-body">
+                <p>You are probably already familiar with this one. It’s the tendency to lump things into one of two categories. For example: successes and failures, good and bad people, friends and enemies, smart and dumb etc. You might also think of this
+                    as “all or nothing thinking”. As humans, we engage in black and white thinking all the time. In reality, there are many shades of gray and rarely do things fit neatly into one category or the other.</p>
+                <p>The fix for this one is to really challenge yourself. Ask yourself whether you can be absolutely certain that there are only two categories in this situation. Is there any chance that there is some gray area in between? Write a simple
+                    two-column pros and cons list. In the example above, you would write at the top “Went to the gym for 35 minutes”. Cons might include: I didn’t make it to the full hour, I didn’t get as much exercise as I would have, or I didn’t reach
+                    my goal of 60 minutes. Pros might include: I got 30 minutes of cardio in, I learned how to use a new piece of equipment even though I didn’t use anything else, or I was able to go to the gym AND still catch my favorite TV show. When
+                    you put it on paper, you can see how it doesn’t really make sense to think in an all or nothing way about the situation.</p>
+            </div>
+            <div class="modal-footer">
+                <h3>© 2017 DUFF THE PSYCH | DUFFTHEPSYCH.COM | @DUFFTHEPSYCH</h3>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal4 -->
+    <div id="myModal4" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="close">&times;</span>
+                <h2>Catastrophizing</h2>
+            </div>
+            <div class="modal-body">
+                <p>Catastrophizing is when you make a huge deal about things that are not necessarily all that bad. This can also be called amplifying. Basically you take a situation that does definitely suck, but then you multiply it until it feels like
+                    the worst thing ever. Yes it’s bad, but it’s not THAT bad.</p>
+                <p>The arch nemesis of catastrophic thinking is specificity. Challenge yourself to be very specific about the circumstances when you find yourself going down this road. In what specific ways did you fall short of your goal? In what other
+                    ways are you still doing alright? Even neutral is better catastrophically bad. For instance, maybe you are getting a B or a C in the class overall now that you performed poorly on that midterm. Is that a great overall grade? Not really.
+                    But is it the type of grade that would cause someone to flunk out? Definitely not! By being specific about the particular areas that you may have messed up, you can prevent yourself from spiraling out of control and making a complete
+                    catastrophe over a mild shortcoming.</p>
+            </div>
+            <div class="modal-footer">
+                <h3>© 2017 DUFF THE PSYCH | DUFFTHEPSYCH.COM | @DUFFTHEPSYCH</h3>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal5 -->
+    <div id="myModal5" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="close">&times;</span>
+                <h2>Should's</h2>
+            </div>
+            <div class="modal-body">
+                <p>Some of the most common phrases that I hear from clients of mine are “I know I shouldn’t think this but...” or “I should be better about...” Albert Ellis, one of the fathers of Cognitive-Behavioral Therapy calls this “musterbation” we
+                    endlessly apply shoulds, musts, needs, and have tos to ourselves. The result is that we give ourselves an unreasonable standard to live up to. It also creates a situation where you are passing a judgment on yourself. When there is
+                    something that you think you “should” be doing, you tend to feel pretty bad when you fall short of it. A lot of these rules that we make up for ourselves are actually pretty arbitrary and all they do is serve as guilt-generators in
+                    our daily lives. We also tend to apply these rules to other people as well and become irritated or angry when we feel like they are not living up to them.</p>
+                <p>In my experience the best antidote to falling in the pit of shoulds and musts is to reframe them. Rather than saying that you should act a certain way, try telling yourself that you would like to act a certain way or have a goal of acting
+                    a certain way. This simple reframe really changes the vibe of the statement. When you make a should statement, you are basically setting yourself up for failure. It becomes a binary scenario where you either succeed or fail. If you
+                    are able to reframe it as a goal of yours, you have more wiggle room and its possible for you to recognize that you are making incremental progress toward your goal. You should pay your bills. That’s a good situation where a should
+                    statement is totally appropriate. You MUST pay your bills otherwise your credit will get wrecked and you can get lose the services that you pay for. If you wanted to become more thankful for what you have, it would be more appropriate
+                    to say “I would like to notice how fortunate I am more often”. When you frame it as a goal that you have, you can appreciate how you noticed the little things in your life that you are thankful for even though you bitched and moaned
+                    about a few things throughout the week as well. It’s not a failure, it’s all part of the journey of improving.</p>
+            </div>
+            <div class="modal-footer">
+                <h3>© 2017 DUFF THE PSYCH | DUFFTHEPSYCH.COM | @DUFFTHEPSYCH</h3>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal6 -->
+    <div id="myModal6" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="close">&times;</span>
+                <h2>Mind Reading</h2>
+            </div>
+            <div class="modal-body">
+                <p>This is the one where you assume that you understand the private thoughts and motives of other people. In reality, we can only make educated guesses about what someone else is thinking. That definitely doesn’t stop us from jumping the
+                    gun and making assumptions about the thoughts in someone’s head. At some level this skill can be helpful. Trying to understand what is going through someone’s mind can help us to be empathetic. In fact, challenging yourself to take
+                    someone else’s perspective can be very beneficial in many circumstances. However, we tend to over-interpret the behavior of others and our brains really like to have some sort of justification. Therefore, we find an easy answer to
+                    explain the person’s behavior, which may or may not bear any true resemblance to their thoughts and intentions.</p>
+                <p>
+                    The trick for this one is to catch yourself and acknowledge that, while your guesses may be true, they are just guesses. There are a bajillion other possibilities. It sometimes helps to look to yourself for counter examples as well. Could you ever see
+                    yourself acting the same way and ignoring someone that you know from school or class? What sort of circumstances would make you act that way? Perhaps the person is massively stressed and they are trying to envision some tricky part
+                    of a project that they are working on, which is causing them to blankly stare into space without noticing anyone around them. Maybe they are feeling upset about something and feel like talking to anybody they know might put them over
+                    the edge and make them become emotional in public, which they don’t want to do. Or they may simply not have their contacts in and you look just as indistinct as all the other people around them due to poor eyesight. The point is...
+                    you don’t actually know. These guesses are biased toward making you feel bad, when in reality there are many possibilities that would not be so negative.
+                </p>
+            </div>
+            <div class="modal-footer">
+                <h3>© 2017 DUFF THE PSYCH | DUFFTHEPSYCH.COM | @DUFFTHEPSYCH</h3>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal7 -->
+    <div id="myModal7" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="close">&times;</span>
+                <h2>Emotional Reasoning</h2>
+            </div>
+            <div class="modal-body">
+                <p>Emotional reasoning is one of the most common thinking traps that people fall into. Basically this is the mistake of thinking “I feel it, so it must be true”. Rather than looking to the facts of what is happening, we look to our gut feelings
+                    about a situation to guide our interpretations of it. This can be really tricky - basically it’s flipping things upside down. In many cases, it serves us well first understand the facts of what is going on and allow that to inform
+                    how we feel about a situation. Instead, emotional reasoning takes your internal state and uses that as a filter. So if you are feeling bad, you are going to tend to interpret the situation as bad. This can obviously get you into a
+                    sticky spot when you have anxiety or depression, because you are often feeling less than awesome internally, regardless of the activity that you are engaging in. When you assume that the sense of apprehension inside you that is caused
+                    by anxiety is evidence that there is something wrong with the situation that you are in, it can lead to avoidance.</p>
+                <p>
+                    Interestingly, in solving this one you definitely don’t want to ignore the way that you feel. You should be honest with yourself about that. The trick comes in trying to separate the feeling from the circumstances and facts of the situation. Step one
+                    is to search yourself and determine what exactly it is that you are feeling emotionally. In the case of the example above, the person would say to themselves “Okay. I have been feeling like crap about myself lately. I don’t think that
+                    I’m taking care of myself as well as I should and that bugs me.” Once you actually identify the feelings that you have, try to recognize the way that they are painting your perception about the situation at hand. The person in this
+                    scenario might then say to themselves “I’m assuming that they feel the same way about me as I do right now.” Then you can work to find some counter examples or other explanations to explain the other person’s behavior.
+                </p>
+            </div>
+            <div class="modal-footer">
+                <h3>© 2017 DUFF THE PSYCH | DUFFTHEPSYCH.COM | @DUFFTHEPSYCH</h3>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal8 -->
+    <div id="myModal8" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="close">&times;</span>
+                <h2>Personalizing</h2>
+            </div>
+            <div class="modal-body">
+                <p>Personalizing is related to mind reading in that you are making assumptions about other people and situations without knowing all of the info. In particular, you make the assumption that you are the cause for a given situation or for someone
+                    else’s behavior. This can lead to self-blame or being super hard on yourself, because it makes you feel responsible for what is going on around you.</p>
+                <p>
+                    While it is tempting to personalize situations, it can help to try to recognize what you do and do not have control over. I’m sure that other situations in your life cause you to feel like you have little to no control over what happens around you, right?
+                    That’s one of the cornerstones of feeling helpless or hopeless - that there’s nothing you can do to change things. Well if you have felt that way in the past (which is another faulty way of thinking) then you already proved to yourself
+                    that there’s no reason to suspect that you have so much control over the way other people feel or act. In reality, there are many different factors that influence someone’s feelings and behaviors. In the first scenario, maybe the person
+                    you live with simply had a really bad day, or they have a stomach ache, or they are stressed and irritated about something they saw in the news. Try writing down some alternative explanations and attempting an honest guess at how likely
+                    each of them are vs how likely it is that they are actually “your fault”.
+                </p>
+            </div>
+            <div class="modal-footer">
+                <h3>© 2017 DUFF THE PSYCH | DUFFTHEPSYCH.COM | @DUFFTHEPSYCH</h3>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.js"></script>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="./JS/crossOutList.js"></script>
+</body>
+
+</html>
