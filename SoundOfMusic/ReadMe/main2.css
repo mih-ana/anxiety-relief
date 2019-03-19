@@ -1,0 +1,46 @@
+:root {
+    background-color: #222;
+}
+
+.audio-player button.play {
+    display: block;
+    width: 80px;
+    height: 80px;
+    border: 0;
+    background-color: #0af;
+    color: white;
+    font-size: 30px;
+    border-radius: 100000px;
+    cursor: pointer;
+}
+
+.audio-player .seek-bar {
+    margin: 30px;
+    width: 400px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    border-radius: 100000px;
+    cursor: pointer;
+}
+
+.audio-player .seek-bar .fill {
+    height: 10px;
+    background-color: #0af;
+    border-radius: 100000px;
+}
+
+.audio-player .seek-bar .handle {
+    width: 10px;
+    height: 10px;
+    background-color: #0af;
+    border-radius: 100000px;
+    margin-left: -5px;
+    transform: scale(2);
+    transition: all 0.1s;
+}
+
+.audio-player .seek-bar .handle:hover {
+    background-color: #3bf;
+    transform: scale(3);
+}

@@ -1,0 +1,147 @@
+body {
+    background: rgb(5, 153, 121);
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    font-family: "Lato";
+}
+
+
+/* Spiral */
+
+#container {
+    position: absolute;
+    margin-top: 2%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/* Audio Player */
+
+.audio-player {
+    margin-top: 500px;
+    margin-left: 25px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.audio-player button.play {
+    display: block;
+    width: 50px;
+    height: 50px;
+    border: none;
+    outline: none;
+    background-color: rgba(0, 170, 255, 0.3);
+    color: #fff;
+    font-size: 30px;
+    border-radius: 100000px;
+    cursor: pointer;
+}
+
+.audio-player .seek-bar {
+    margin: 30px;
+    width: 350px;
+    background-color: rgba(255, 255, 255, 0.8);
+    display: flex;
+    align-items: center;
+    border-radius: 100000px;
+    cursor: pointer;
+}
+
+.audio-player .seek-bar .fill {
+    height: 10px;
+    background-color: rgba(0, 170, 255, 0.3);
+    border-radius: 100000px;
+}
+
+.audio-player .seek-bar .handle {
+    width: 10px;
+    height: 10px;
+    background-color: rgba(0, 170, 255, 0.3);
+    border-radius: 100000px;
+    margin-left: -5px;
+    transform: scale(2);
+    transition: all 0.1s;
+}
+
+.audio-player .seek-bar .handle:hover {
+    background-color: rgba(0, 170, 255, 0.5);
+    transform: scale(3);
+}
+
+
+/* Spiral values */
+
+#container div {
+    width: 80vmin;
+    height: 80vmin;
+    border-top: 1px solid #faa;
+    border-right: 1px solid #faa;
+    position: relative;
+    border-radius: 100%;
+    animation: rotation 10s linear infinite;
+}
+
+#container div div {
+    width: 61.8%;
+    height: 61.8%;
+    position: absolute;
+    bottom: 8%;
+    right: 5%;
+}
+
+@keyframes rotation {
+    to {
+        transform: rotate(1turn);
+    }
+}
+
+
+/* Navbar collapse */
+
+@media (max-width: 991px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin: 7.5px -15px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .navbar-text {
+        float: none;
+        margin: 15px 0;
+    }
+    /* since 3.1.0 */
+    .navbar-collapse.collapse.in {
+        display: block!important;
+    }
+    .collapsing {
+        overflow: hidden!important;
+    }
+}
+
+.navbar-brand {
+    font-size: 20px;
+}
