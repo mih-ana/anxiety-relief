@@ -29,6 +29,7 @@ body {
     font-size: 30px;
     border-radius: 100000px;
     cursor: pointer;
+    margin-left: 45px;
 }
 
 .audio-player .seek-bar {
