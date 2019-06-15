@@ -77,8 +77,8 @@ body {
 /* Spiral values */
 
 #container div {
-    width: 80vmin;
-    height: 80vmin;
+    width: 60vmin;
+    height: 60vmin;
     border-top: 1px solid #faa;
     border-right: 1px solid #faa;
     position: relative;
